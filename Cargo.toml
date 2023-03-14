@@ -1,0 +1,12 @@
+[package]
+name = "json-sum"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "json_sum"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = "0.18.1"
+simd-json = "0.7.0"
